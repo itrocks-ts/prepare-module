@@ -1,0 +1,28 @@
+{
+	"author": {
+		"name": "Baptiste Pillot",
+		"email": "baptiste@pillot.fr"
+	},
+	"description": "Prepare your front-end module with @itrocks dependencies for npm publishing.",
+	"devDependencies": {
+		"@types/node": "^22.9",
+		"typescript": "5.6"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"prepare-module.d.ts",
+		"prepare-module.js"
+	],
+	"keywords": [
+	],
+	"license": "LGPL-3.0-or-later",
+	"main": "./prepare-module.js",
+	"name": "@itrocks/prepare-module",
+	"repository": "https://github.com/itrocks-ts/prepare-module",
+	"scripts": {
+		"build": "tsc -p tsconfig.json"
+	},
+	"types": "./prepare-module.d.ts",
+	"version": "0.0.1"
+}
