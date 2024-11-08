@@ -14,6 +14,9 @@ async function getNamespace() {
 (async () => {
 	const namespace = await getNamespace()
 
+	const case1 = new RegExp(`import(.*)from\\s+'../node_modules/${namespace}/`, 'g')
+	const case2 = new RegExp(`import(.*)from\\s+'../node_modules/`, 'g')
+
 	const files = await fs.readdir(srcDir)
 	for (const file of files) {
 		const srcPath  = srcDir  + '/' + file
@@ -22,12 +25,12 @@ async function getNamespace() {
 			let content = (await fs.readFile(srcPath, 'utf8'))
 			if (namespace) {
 				content = content
-					.replace(new RegExp(`import(.*)from\s+'..\/node_modules\/${namespace}\/`, 'g'), "import$1from '../")
-					.replace(/import(.*)from\s+'..\/node_modules\//g, "import$1from '../../")
+					.replace(case1, "import$1from '../")
+					.replace(case2, "import$1from '../../")
 			}
 			else {
 				content = content
-					.replace(/import(.*)from\s+'..\/node_modules\//g, "import$1from '../")
+					.replace(case2, "import$1from '../")
 			}
 			await fs.writeFile(destPath, content, 'utf8')
 		}
