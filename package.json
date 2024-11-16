@@ -6,7 +6,7 @@
 	"bin": {
 		"prepare-module":  "./prepare-module.js"
 	},
-	"description": "Prepare your front-end module with @itrocks dependencies for npm publishing.",
+	"description": "Prepare your front-end module with @itrocks dependencies for npm publishing",
 	"devDependencies": {
 		"@types/node": "^22.9",
 		"typescript": "5.6"
@@ -18,6 +18,15 @@
 		"prepare-module.js"
 	],
 	"keywords": [
+		"build",
+		"dependency",
+		"esm",
+		"frontend",
+		"itrocks",
+		"module",
+		"npm",
+		"prepare",
+		"publish"
 	],
 	"license": "MIT",
 	"main": "./prepare-module.js",
@@ -27,5 +36,5 @@
 		"build": "tsc && chmod ugo+x prepare-module.js"
 	},
 	"types": "./prepare-module.d.ts",
-	"version": "0.0.10"
+	"version": "0.0.11"
 }
