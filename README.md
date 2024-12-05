@@ -1,7 +1,8 @@
 [![view on npm](https://badgen.net/npm/v/@itrocks/prepare-module)](https://www.npmjs.org/package/@itrocks/prepare-module)
 [![npm module downloads](https://badgen.net/npm/dt/@itrocks/prepare-module)](https://www.npmjs.org/package/@itrocks/prepare-module)
-[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/prepare-module)](https://github.com/itrocks-ts/prepare-module/network/dependents?dependent_type=REPOSITORY)
-[![GitHub package dependents](https://badgen.net/github/dependents-pkg/itrocks-ts/prepare-module)](https://github.com/itrocks-ts/prepare-module/network/dependents?dependent_type=PACKAGE)
+[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/prepare-module?label=dependents)](https://github.com/itrocks-ts/prepare-module/network/dependents?dependent_type=REPOSITORY)
+[![Report issues on GitHub](https://badgen.net/github/open-issues/itrocks-ts/prepare-module?icon=github)](https://github.com/itrocks-ts/prepare-module/issues)
+[![Get support on Discord](https://badgen.net/discord/members/kbMjUq5F?icon=discord)](https://discord.gg/kbMjUq5F)
 
 # prepare-module
 
