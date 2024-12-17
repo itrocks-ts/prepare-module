@@ -1,8 +1,8 @@
-[![view on npm](https://badgen.net/npm/v/@itrocks/prepare-module)](https://www.npmjs.org/package/@itrocks/prepare-module)
-[![npm module downloads](https://badgen.net/npm/dt/@itrocks/prepare-module)](https://www.npmjs.org/package/@itrocks/prepare-module)
-[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/prepare-module?label=dependents)](https://github.com/itrocks-ts/prepare-module/network/dependents?dependent_type=REPOSITORY)
-[![Report issues on GitHub](https://badgen.net/github/open-issues/itrocks-ts/prepare-module?icon=github)](https://github.com/itrocks-ts/prepare-module/issues)
-[![Get support on Discord](https://badgen.net/discord/members/kbMjUq5F?icon=discord)](https://discord.gg/kbMjUq5F)
+[![npm version](https://img.shields.io/npm/v/@itrocks/prepare-module?logo=npm)](https://www.npmjs.org/package/@itrocks/prepare-module)
+[![npm downloads](https://img.shields.io/npm/dm/@itrocks/prepare-module)](https://www.npmjs.org/package/@itrocks/prepare-module)
+[![GitHub](https://img.shields.io/github/last-commit/itrocks-ts/prepare-module?color=2dba4e&label=commit&logo=github)](https://github.com/itrocks-ts/prepare-module)
+[![issues](https://img.shields.io/github/issues/itrocks-ts/prepare-module)](https://github.com/itrocks-ts/prepare-module/issues)
+[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/WFPJjmUx)
 
 # prepare-module
 
