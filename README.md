@@ -2,7 +2,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@itrocks/prepare-module)](https://www.npmjs.org/package/@itrocks/prepare-module)
 [![GitHub](https://img.shields.io/github/last-commit/itrocks-ts/prepare-module?color=2dba4e&label=commit&logo=github)](https://github.com/itrocks-ts/prepare-module)
 [![issues](https://img.shields.io/github/issues/itrocks-ts/prepare-module)](https://github.com/itrocks-ts/prepare-module/issues)
-[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/RZYhmhgrCk)
+[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://25.re/ditr)
 
 # prepare-module
 
