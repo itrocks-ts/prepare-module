@@ -4,7 +4,7 @@
 		"email": "baptiste@pillot.fr"
 	},
 	"bin": {
-		"prepare-module": "./prepare-module.js"
+		"prepare-module": "prepare-module.js"
 	},
 	"description": "Prepare your front-end module with @itrocks dependencies for npm publishing",
 	"devDependencies": {
@@ -17,11 +17,12 @@
 		"prepare-module.d.ts",
 		"prepare-module.js"
 	],
+	"homepage": "https://it.rocks",
 	"keywords": [
 		"build",
+		"cli",
 		"dependency",
 		"esm",
-		"frontend",
 		"it.rocks",
 		"module",
 		"npm",
@@ -31,10 +32,13 @@
 	"license": "ISC",
 	"main": "./prepare-module.js",
 	"name": "@itrocks/prepare-module",
-	"repository": "https://github.com/itrocks-ts/prepare-module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itrocks-ts/prepare-module.git"
+	},
 	"scripts": {
 		"build": "tsc && chmod ugo+x prepare-module.js"
 	},
 	"types": "./prepare-module.d.ts",
-	"version": "0.0.17"
+	"version": "0.0.19"
 }
