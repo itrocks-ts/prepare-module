@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import { promises as fs } from 'fs'
 
-const srcDir  = './src'
-const destDir = '.';
+const srcDir  = './' + (process.argv[2] || 'src')
+const destDir = '.'
 
-(async () =>
+async function prepareModules()
 {
 
 	const namespace = await getNamespace()
@@ -45,4 +45,6 @@ const destDir = '.';
 
 	await prepareDir(srcDir, destDir)
 
-})().catch()
+}
+
+prepareModules().catch().then()
