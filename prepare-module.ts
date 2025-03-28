@@ -10,6 +10,7 @@ async function prepareModules()
 	const namespace = await getNamespace()
 	const case1     = new RegExp(`../node_modules/${namespace}/`, 'g')
 	const case2     = new RegExp(`../node_modules/`, 'g')
+	const case3     = new RegExp(`from.*'../../`, 'g')
 
 	async function getNamespace()
 	{
@@ -33,8 +34,9 @@ async function prepareModules()
 			if (file.endsWith('.js')) {
 				let content = (await fs.readFile(srcPath, 'utf8'))
 				content = namespace
-					? content.replace(case1, "../").replace(case2, "../../")
-					: content.replace(case2, "../")
+					? content.replace(case1, '../').replace(case2, '../../')
+					: content.replace(case2, '../')
+				content = content.replace(case3, "from '../")
 				await fs.writeFile(destPath, content, 'utf8')
 			}
 			else if (file.endsWith('.d.ts')) {
