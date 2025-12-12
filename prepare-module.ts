@@ -31,16 +31,13 @@ async function prepareModules()
 				await prepareDir(srcPath, destPath)
 				continue
 			}
-			if (file.endsWith('.js')) {
+			if (file.endsWith('.js') || file.endsWith('.d.ts')) {
 				let content = (await fs.readFile(srcPath, 'utf8'))
 				content = namespace
 					? content.replace(case1, '../').replace(case2, '../../')
 					: content.replace(case2, '../')
 				content = content.replace(case3, "from '../")
 				await fs.writeFile(destPath, content, 'utf8')
-			}
-			else if (file.endsWith('.d.ts')) {
-				await fs.copyFile(srcPath, destPath)
 			}
 		}
 	}

@@ -40,5 +40,5 @@
 		"build": "tsc && chmod ugo+x prepare-module.js"
 	},
 	"types": "./prepare-module.d.ts",
-	"version": "0.0.25"
+	"version": "0.1.0"
 }
