@@ -8,9 +8,9 @@ async function prepareModules()
 {
 
 	const namespace = await getNamespace()
-	const case1     = RegExp(`../node_modules/${namespace}/`, 'g')
-	const case2     = RegExp(`../node_modules/`, 'g')
-	const case3     = RegExp(`from.*'../../`, 'g')
+	const case1     = RegExp(`\\.\\./node_modules/${namespace}/`, 'g')
+	const case2     = RegExp(`\\.\\./node_modules/`, 'g')
+	const case3     = RegExp(`from\\s+'\\.\\./\\.\\./`, 'g')
 
 	async function getNamespace()
 	{
