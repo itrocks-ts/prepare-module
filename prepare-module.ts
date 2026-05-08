@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { promises as fs } from 'fs'
+import { promises as fs } from 'node:fs'
 
 const srcDir  = './' + (process.argv[2] || 'src')
 const destDir = '.'
