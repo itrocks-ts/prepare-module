@@ -9,7 +9,7 @@
 	"description": "Prepare your front-end module with @itrocks dependencies for npm publishing",
 	"devDependencies": {
 		"@types/node": "^24.10",
-		"typescript": "^6.0"
+		"typescript": "^7.0"
 	},
 	"exports": "./prepare-module.js",
 	"files": [
@@ -39,5 +39,5 @@
 	"scripts": {
 		"build": "tsc && chmod ugo+x prepare-module.js"
 	},
-	"version": "0.1.2"
+	"version": "0.1.3"
 }
